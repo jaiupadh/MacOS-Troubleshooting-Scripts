@@ -13,11 +13,11 @@ cd /opt/cisco/anyconnect/bin
 if [ -e /opt/cisco/anyconnect/bin/routechanges ]
 
 then
-	echo "#####################################################"
-	echo "+++++++++++++++++++++++++++++++++++++++++++++++++++++"
-	echo "+ Binaries found -> Removing the Corrupted Binaries +"
-	echo "+++++++++++++++++++++++++++++++++++++++++++++++++++++"
-	echo "#####################################################"
+	echo "##########################################################"
+	echo "++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"
+	echo "+ Binaries were found -> Removing the Corrupted Binaries +"
+	echo "++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"
+	echo "##########################################################"
 	rm routechangesv4.bin
 	rm routechangesv6.bin
 	echo "Process Completed -> Please try establishing a VPN connection again; A system reboot might be required"
