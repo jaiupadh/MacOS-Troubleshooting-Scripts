@@ -1,8 +1,8 @@
-#!/bin/bash
 ##########################################################################################################################################
 #                                     Shell Script Created on 27-Aug-21                                                                  #
 # This is a shell script to remove corrupted binaries in Cisco AnyConnect VPN Client on MacOS X & Created by Jaidev Upadhya(jaiupadh)    #
 ##########################################################################################################################################
+#!/bin/bash
 
 echo "Fixing IP Forwarding Table Issue ..."
 
@@ -10,7 +10,7 @@ clear
 
 cd /opt/cisco/anyconnect/bin
 
-if [ -e /opt/cisco/anyconnect/bin/routechanges ]
+if [ -e /opt/cisco/anyconnect/bin/routechangesv4.bin ]
 
 then
 	echo "##########################################################"
